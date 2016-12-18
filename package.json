@@ -1,0 +1,33 @@
+{
+  "name": "fuzzyIS",
+  "version": "1.0.0",
+  "description": "Lib describes core fuzzy logic stuff for building fuzzy inference systems.",
+  "main": "./lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alendorff/fuzzy-inference-system-lib.git"
+  },
+  "keywords": [
+    "fuzzy",
+    "fuzzy logic",
+    "library",
+    "fuzzy inference system"
+  ],
+  "author": "Maxim Nesterenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alendorff/fuzzy-inference-system-lib/issues"
+  },
+  "homepage": "https://github.com/Alendorff/fuzzy-inference-system-lib#readme"
+}
