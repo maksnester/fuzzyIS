@@ -1,6 +1,7 @@
 # FuzzyIS - fuzzy inference system library
-It is a JavaScript library for building fuzzy inference systems.
-Build your own system right in browser or with nodejs.
+It is a JavaScript library for building fuzzy inference systems.  
+Build your own system right in browser or with nodejs.  
+
 Install it!
 
 `npm install fuzzyIS`
@@ -17,7 +18,7 @@ FuzzyIS contains 4 core objects:
 * **FIS** - fuzzy inference system. It is created with input and output linguistic variables and with described rules.
 FIS calculates precise values for output linguistic variables from precise values of input variables referring to the rules given.
 
-### Example about the tip
+## Example about the tip
 
 Let's see how we can model simple fuzzy inference system.
 
@@ -74,8 +75,10 @@ Code it:
 Now we should explain how tip depend on food and service to our system. Let's agree that the rules are as follows:
 
 > if **service** is *poor* AND **food** is *bad* -> **tip** is *small*
-if **service** is *normal* -> **tip** is *average*
-if **service** is *excellent* AND **food** is *good* -> **tip** is *generous*
+
+> if **service** is *normal* -> **tip** is *average*
+
+> if **service** is *excellent* AND **food** is *good* -> **tip** is *generous*
 
     system.rules = [
         new Rule(
