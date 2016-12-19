@@ -14,7 +14,7 @@ FuzzyIS contains 4 core objects:
 
 * **LinguisticVariable** - thing described by fuzzy-terms like *fast / slow*, *tall / low*, *hot / cold* etc...
 * **Term** - mentioned fuzzy term itself
-* **Rule** - thing which describes connection between input and output linguistic variables. These are conditions like: "if **food** is *tasty* AND **service** is *great* -> **tips** should be *generous*", which describes how system works.
+* **Rule** - thing which describes connection between input and output linguistic variables. These are conditions like: "if **food** is *tasty* AND **service** is *great* -> **tip** should be *generous*", which describes how system works.
 * **FIS** - fuzzy inference system. It is created with input and output linguistic variables and with described rules.
 FIS calculates precise values for output linguistic variables from precise values of input variables referring to the rules given.
 
