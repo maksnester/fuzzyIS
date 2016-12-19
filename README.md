@@ -46,15 +46,15 @@ Let's agree that Food could be only 'bad' or 'good'. Service could be 'poor', 'n
 Now we should explain our fuzzy terms to the system and create the mentioned terms. Each term is described by a function.
 Let's define what good and bad food mean in terms of the imaginary 0 to 10 scale.
 
-Picture will appear here soon (about triangle functions)
+![service](https://cloud.githubusercontent.com/assets/4989157/21298562/be79342c-c5e6-11e6-8d87-27912258a418.png)
 
 Same thing for service terms:
 
-Picture will appear here soon (about trapeze functions)
+![food](https://cloud.githubusercontent.com/assets/4989157/21298567/db682a84-c5e6-11e6-85d5-2469cfc729f0.png)
 
 And for tip:
 
-Picture will appear here soon (about triangle functions)
+![tip](https://cloud.githubusercontent.com/assets/4989157/21298571/eceb88be-c5e6-11e6-8752-b53de217e6b9.png)
 
 Code it:
 
