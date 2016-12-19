@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/2.1.0/mocha.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/2.1.0/mocha.js"></script>
+
+    <script>
+        mocha.setup('bdd');
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/2.0.0/chai.js"></script>
+
+    <script src="../../dist/fuzzyIS-v1.0.0.js"></script>
+</head>
+
+<body>
+
+<!-- tests -->
+<script src="inbrowsertest.js"></script>
+
+<!-- results will be here -->
+<div id="mocha"></div>
+
+<script>
+    mocha.run();
+</script>
+</body>
+
+</html>
