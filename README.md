@@ -102,6 +102,6 @@ Now we should explain how tip depend on food and service to our system. Let's ag
 
 Now we have described our system and can ask it to calculate tip:
 
-    system.getPreciseOutput([7.018, 2.59])
+    system.getPreciseOutput([7.892, 7.41])
 
 Result is `[17.40000000000002]`. It returns an array with values of output variables.
