@@ -4,11 +4,11 @@ Build your own system right in browser or with nodejs.
 
 Install it!
 
-`npm install fuzzyIS`
+`npm install fuzzyis`
 
 Browser-ready minified version available at `/dist` directory.
 Nodejs usage:
-`const fuzzyIS = require('fuzzyIS');`
+`const fuzzyis = require('fuzzyis');`
 
 FuzzyIS contains 4 core objects:
 
@@ -22,9 +22,9 @@ FIS calculates precise values for output linguistic variables from precise value
 
 Let's see how we can model simple fuzzy inference system.
 
-    const fuzzyIS = require('fuzzyIS');
-    const system = new fuzzyIS.FIS('Tip system');
-    const LV = fuzzyIS.LinguisticVariable;
+    const fuzzyis = require('fuzzyis');
+    const system = new fuzzyis.FIS('Tip system');
+    const LV = fuzzyis.LinguisticVariable;
 
 We need to know how much we should leave for officiant in percentage terms. Tip is output linguistic variable. We suppose it could be 'small', 'average' or 'generous'. And in precise values it could be from 0 to 30% from bill.
 

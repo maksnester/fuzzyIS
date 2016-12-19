@@ -1,5 +1,5 @@
 {
-  "name": "fuzzyIS",
+  "name": "fuzzyis",
   "version": "1.0.0",
   "description": "Lib describes core fuzzy logic stuff for building fuzzy inference systems.",
   "main": "./lib/index.js",

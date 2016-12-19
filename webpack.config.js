@@ -8,8 +8,8 @@ module.exports = {
     entry: "./lib/index.js",
     output: {
         path: path.join(__dirname, 'dist'),
-        filename: "fuzzyIS-v1.0.0.js",
-        library: "fuzzyIS"
+        filename: "fuzzyis-v1.0.0.js",
+        library: "fuzzyis"
     },
 
     devtool: "source-map",

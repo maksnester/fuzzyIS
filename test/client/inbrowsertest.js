@@ -2,10 +2,10 @@ const assert = chai.assert;
 
 describe("Testing FIS", () => {
 
-    const FIS = fuzzyIS.FIS;
-    const LinguisticVariable = fuzzyIS.LinguisticVariable;
-    const Term = fuzzyIS.Term;
-    const Rule = fuzzyIS.Rule;
+    const FIS = fuzzyis.FIS;
+    const LinguisticVariable = fuzzyis.LinguisticVariable;
+    const Term = fuzzyis.Term;
+    const Rule = fuzzyis.Rule;
 
 
     let system = new FIS();
