@@ -1,4 +1,6 @@
 # FuzzyIS - fuzzy inference system library
+[![npm version](https://badge.fury.io/js/fuzzyis.svg)](https://badge.fury.io/js/fuzzyis) 
+
 It is a JavaScript library for building fuzzy inference systems.  
 Build your own system right in browser or with nodejs.  
 
