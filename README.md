@@ -48,11 +48,11 @@ Let's agree that Food could be only 'bad' or 'good'. Service could be 'poor', 'n
 Now we should explain our fuzzy terms to the system and create the mentioned terms. Each term is described by a function.
 Let's define what good and bad food mean in terms of the imaginary 0 to 10 scale.
 
-![service](https://cloud.githubusercontent.com/assets/4989157/21298562/be79342c-c5e6-11e6-8d87-27912258a418.png)
+![food](https://cloud.githubusercontent.com/assets/4989157/21298567/db682a84-c5e6-11e6-85d5-2469cfc729f0.png)
 
 Same thing for service terms:
 
-![food](https://cloud.githubusercontent.com/assets/4989157/21298567/db682a84-c5e6-11e6-85d5-2469cfc729f0.png)
+![service](https://cloud.githubusercontent.com/assets/4989157/21298562/be79342c-c5e6-11e6-8d87-27912258a418.png)
 
 And for tip:
 
